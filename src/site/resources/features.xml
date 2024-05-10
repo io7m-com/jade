@@ -7,10 +7,10 @@
       Basedir</a> specification on Unix-like platforms.</li>
     <li>Implements best-practice directory management on Windows platforms.</li>
     <li>Support for <a href="https://en.wikipedia.org/wiki/Portable_application">portable applications</a>.</li>
-    <li>Fully documented (JavaDoc)</li>
-    <li><a href="http://www.osgi.org">OSGi</a>-ready</li>
-    <li><a href="https://en.wikipedia.org/wiki/Java_Platform_Module_System">JPMS</a>-ready</li>
-    <li>ISC license</li>
-    <li>High-coverage automated test suite</li>
+    <li>Fully documented (JavaDoc).</li>
+    <li><a href="http://www.osgi.org">OSGi</a>-ready.</li>
+    <li><a href="https://en.wikipedia.org/wiki/Java_Platform_Module_System">JPMS</a>-ready.</li>
+    <li>ISC license.</li>
+    <li>High-coverage automated test suite.</li>
   </ul>
 </div>

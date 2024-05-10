@@ -29,13 +29,12 @@
     <module>com.io7m.jade.tests</module>
     <module>com.io7m.jade.spi</module>
     <module>com.io7m.jade.vanilla</module>
-    <module>com.io7m.jade.documentation</module>
   </modules>
 
   <properties>
     <!-- Configuration -->
     <io7m.api.previousVersion>1.0.2</io7m.api.previousVersion>
-    <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
 
     <!-- Third-party dependencies. -->
     <com.io7m.immutables.version>2.10.1</com.io7m.immutables.version>
@@ -64,7 +63,7 @@
   </developers>
 
   <issueManagement>
-    <url>http://www.github.com/io7m-com/jade/issues</url>
+    <url>https://www.github.com/io7m-com/jade/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -97,9 +96,9 @@
         <version>${com.io7m.immutables.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.io7m.immutables.style</groupId>
-        <artifactId>com.io7m.immutables.style</artifactId>
-        <version>0.0.1</version>
+        <groupId>com.io7m.immutables-style</groupId>
+        <artifactId>com.io7m.immutables-style</artifactId>
+        <version>1.0.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.commons</groupId>
