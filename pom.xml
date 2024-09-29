@@ -38,6 +38,7 @@
 
     <!-- Third-party dependencies. -->
     <com.io7m.immutables.version>2.10.1</com.io7m.immutables.version>
+    <org.junit.version>5.11.1</org.junit.version>
   </properties>
 
   <licenses>
@@ -136,14 +137,11 @@
         <version>1.5.8</version>
       </dependency>
       <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>5.10.3</version>
-      </dependency>
-      <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>5.10.3</version>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>${org.junit.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
