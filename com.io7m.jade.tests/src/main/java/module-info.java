@@ -1,5 +1,5 @@
 /*
- * Copyright © 2020 Mark Raynsford <code@io7m.com> https://www.io7m.com
+ * Copyright © 2024 Mark Raynsford <code@io7m.com> https://www.io7m.com
  *
  * Permission to use, copy, modify, and/or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -14,22 +14,19 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-import com.io7m.jade.vanilla.ApplicationDirectoriesUnix;
-import com.io7m.jade.vanilla.ApplicationDirectoriesWindows;
-
-/**
- * Java application directory etiquette (Vanilla implementations)
- */
-
-module com.io7m.jade.vanilla
+open module com.io7m.jade.tests
 {
-  requires com.io7m.jade.spi;
-  requires org.apache.commons.lang3;
+  requires org.junit.jupiter.api;
+  requires org.junit.jupiter.engine;
+  requires org.junit.platform.commons;
+  requires org.junit.platform.engine;
+  requires org.junit.platform.launcher;
+
+  requires com.io7m.jade.api;
+  requires com.io7m.jade.vanilla;
+  requires nl.jqno.equalsverifier;
+  requires org.mockito;
   requires org.slf4j;
 
-  exports com.io7m.jade.vanilla to com.io7m.jade.tests;
-
-  provides com.io7m.jade.spi.ApplicationDirectoryProviderType
-    with ApplicationDirectoriesUnix,
-      ApplicationDirectoriesWindows;
+  exports com.io7m.jade.tests;
 }

@@ -30,5 +30,8 @@ module com.io7m.jade.api
 
   uses com.io7m.jade.spi.ApplicationDirectoryProviderType;
 
+  opens com.io7m.jade.api to nl.jqno.equalsverifier;
+
   exports com.io7m.jade.api;
+  exports com.io7m.jade.api.internal to com.io7m.jade.tests;
 }
