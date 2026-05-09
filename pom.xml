@@ -14,7 +14,7 @@
 
   <groupId>com.io7m.jade</groupId>
   <artifactId>com.io7m.jade</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>com.io7m.jade</name>
@@ -35,7 +35,7 @@
     <io7m.workID>bf17e568-257e-34f3-aa11-28167e882312</io7m.workID>
 
     <!-- Configuration -->
-    <io7m.api.previousVersion>1.0.3</io7m.api.previousVersion>
+    <io7m.api.previousVersion>1.1.0</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
 
     <!-- Third-party dependencies. -->
